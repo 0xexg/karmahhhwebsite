@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karm-ahhh</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --orange: #F15025;
+            --beige: #FDF3E8;
+            --dark-brown: #231F20;
+        }
+        
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+            background-color: var(--beige);
+            color: var(--dark-brown);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--orange);
+        }
+        
+        .logo span {
+            font-size: 14px;
+            color: #666;
+            font-weight: 400;
+        }
+        
+        .btn {
+            background-color: var(--orange);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        .hero {
+            text-align: center;
+            padding: 60px 0;
+        }
+        
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: var(--orange);
+        }
+        
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        
+        .waitlist {
+            background: linear-gradient(to bottom, var(--dark-brown), #000);
+            color: white;
+            text-align: center;
+            padding: 60px 0;
+        }
+        
+        .waitlist h2 {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        
+        .waitlist p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        
+        .how-it-works {
+            padding: 60px 0;
+            text-align: center;
+            background-color: var(--beige);
+        }
+        
+        .how-it-works h2 {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 40px;
+            color: var(--dark-brown);
+        }
+        
+        .steps {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+        
+        .step {
+            flex: 1;
+            margin: 0 20px;
+        }
+        
+        .step img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 20px;
+        }
+        
+        .step h3 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: var(--orange);
+        }
+        
+        .step p {
+            font-size: 16px;
+        }
+        
+        .cta {
+            background: linear-gradient(to bottom, var(--dark-brown), #000);
+            color: white;
+            text-align: center;
+            padding: 60px 0;
+        }
+        
+        .cta h2 {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        
+        footer {
+            background-color: var(--dark-brown);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        .social-icons {
+            margin-top: 20px;
+        }
+        
+        .social-icons img {
+            width: 24px;
+            height: 24px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">Karm-ahhh <span>by 6degrees</span></div>
+            <button class="btn">Join waitlist</button>
+        </header>
+
+        <section class="hero">
+            <h1>Unlock prizes with your Karm-ahhh</h1>
+            <p>Giveaways for IndieHackers, at 5pm GMT, everyday</p>
+            <p>You have a chance to win indie tools that help you grow your business.</p>
+            <p>And these prizes, they're BIG!</p>
+            <p>The more Reddit karma you have, the greater your chances.</p>
+            <button class="btn">Join waitlist</button>
+        </section>
+    </div>
+
+    <section class="waitlist">
+        <div class="container">
+            <h2>Join the exclusive waitlist</h2>
+            <p>We're launching early spots for top-Redditors.</p>
+            <p>Join the waitlist to check if your Karma qualifies you. Limited spots available.</p>
+            <button class="btn">Join waitlist</button>
+            <p>Only 500 will be accepted. 71 spots remaining</p>
+        </div>
+    </section>
+
+    <section class="how-it-works">
+        <div class="container">
+            <h2>How it works</h2>
+            <div class="steps">
+                <div class="step">
+                    <img src="reddit-icon.png" alt="Qualify">
+                    <h3>Qualify</h3>
+                    <p>Connect the Reddit account. Your karma score decides your eligibility for daily giveaways</p>
+                </div>
+                <div class="step">
+                    <img src="raffle-icon.png" alt="Enter the raffle">
+                    <h3>Enter the raffle</h3>
+                    <p>Check in daily at 5pm GMT to enter that day's raffle</p>
+                </div>
+                <div class="step">
+                    <img src="gift-icon.png" alt="Claim the prize">
+                    <h3>Claim the prize</h3>
+                    <p>See if you're a lucky winner! Winner or not, come back tomorrow and try again.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Unlock prizes with your Karm-ahhh</h2>
+            <p>Join the waitlist now to be the first IndieHackers to win big.</p>
+            <button class="btn">Join waitlist</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 6degrees 2024. All rights reserved</p>
+            <img src="6degrees-logo.png" alt="6degrees logo" style="width: 100px; margin: 20px 0;">
+            <div class="social-icons">
+                <img src="twitter-icon.png" alt="Twitter">
+                <img src="instagram-icon.png" alt="Instagram">
+                <img src="telegram-icon.png" alt="Telegram">
+                <img src="facebook-icon.png" alt="Facebook">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
